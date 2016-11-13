@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
+<html ng-app="zippy-directive">
 
 <head>
   <link data-require="angular.js@1.4.0" data-semver="1.5.0" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 </head>
 
-<body ng-controller="mainController">
+<body>
 <h1>Testing Zippy</h1>
-<input type="text" ng-model="value" capitalize-first >
-<input type="text" ng-model="content">
+
 <br><br>
 
-<zippy-panel title={{value}} panel-heading-color="grey" color="white">
-  content is: {{content}}
+<zippy-panel title="Test" panel-heading-color="grey" color="white">
+  content
 </zippy-panel>
 
 <script data-require="angular.js@1.4.0" data-semver="1.5.0" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"></script>
-<script src="app.js"></script>
-<script src="zippy-panel.js"></script>
+<script src="zippy-directive.js"></script>
+
 </body>
 
 </html>

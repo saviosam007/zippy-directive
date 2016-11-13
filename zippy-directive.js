@@ -1,5 +1,7 @@
+// Code goes here
+
 (function () {
-        angular.module("zippy-directive", [])
+    angular.module("zippy-directive", [])
         .directive('zippyPanel', function () {
             return {
                 restrict: "E",
@@ -9,7 +11,7 @@
                     panelHeadingColor: "@",
                     color: "@"
                 },
-                templateUrl: "zippy.html",
+                templateUrl: "./zippy.html",
                 link: function (scope, element, attrs) {
                     scope.visible = false;
                     scope.toggle = function () {
