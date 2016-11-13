@@ -8,7 +8,7 @@ This Directive is used to create Zippy
 ### Installation
 you can install using npm:
 ```
-npm install zippy-panel
+npm install zippy-directive
 
 ```
 
