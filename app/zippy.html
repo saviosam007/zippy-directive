@@ -1,0 +1,7 @@
+<div class='panel panel-default '>
+    <div class='panel-heading' ng-style="{'background-color':'{{panelHeadingColor}}','color':'{{color}}','height':'35px'}">
+        <i class='glyphicon glyphicon-triangle-bottom pull-right' ng-click='toggle()'></i><span style="font-size:16px">{{title}}</span>
+    </div>
+    <div class='panel-body' ng-show='visible' ng-transclude>
+    </div>
+</div>
